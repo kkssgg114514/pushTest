@@ -14,6 +14,12 @@ void inverse(std::vector<T>& v)
     }
 }
 
+void minus(int& a, int& b)
+{
+    a = -a;
+    b = -b;
+}
+
 void print_vector(std::vector<int>& v)
 {
     for (int i = 0; i < v.size(); i++) {
